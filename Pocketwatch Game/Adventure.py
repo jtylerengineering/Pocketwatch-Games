@@ -47,8 +47,24 @@ Examine the sink and mirror, Examine the poster, or turn.
 cell_back_desc = """
 __________________________________________________
 |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX+=================+XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|| || || || || || ||XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|| || || || || || ||XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXX======================XXXXXXXXXXXXXXX|
+|XXXXXXXXXXX|'.'.'.'.'.'.'.'.'.'.|XXXXXXXXXXXXXXX|
 |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
-|X
+|rTTTTT9.+-----------------+XXXXXXXXXXXXXXXXXXXXX|
+|IIIIIIII|IIIIIIIIIIIIIIIII|XXXXXXXXXXXXXXXXXXXXX|
+|--------------------------+XXXXXXXXXXXXXXXXXXXXX|
+--------------------------------------------------
+
+It's the cot you woke up in.  There is a small, barred, window in the wall. You can:
+Look out the window, Look under the cot, or turn.
+"""
+cell_r_desc = """
+__________________________________________________
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|
 """
 #encoder pin Numbers:
 sw_pin = board.D4
