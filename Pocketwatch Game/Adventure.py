@@ -41,8 +41,54 @@ __________________________________________________
 |XXXXXXXXXXXXXXXXXXXXXXXXXXXX==========XXXXXXXXXX|
 --------------------------------------------------
 
+
 In front of you is a sink, a mirror and a poster of a person dancing. You can:
 Examine the sink and mirror, Examine the poster, or turn.
+"""
+
+cell_poster_desc="""
+__________________________________________________
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX+=================+XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|                 |XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|   ( 0      _    |XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|    ||)    d d   |XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|    ((           |XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|                 |XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX|                _/XXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXX+===============|/XXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+--------------------------------------------------
+
+It's a poster of a person dancing. One corner is peeled up slightly. You can:
+Investigate, or Dismiss it.
+"""
+
+cell_poster_clue="""
+___________________________________________________
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXX+----------------------------------------+XXX|
+|XXXX|                                        |XXX|
+|XXXX| _________    _______  __    __    ___  |XXX|
+|XXXX||______   | |   _____) | |  |  |  |   \ |XXX|
+|XXXX| ______|  | |  |       | |  |  |  |   _\|XXX|
+|XXXX||         | |  c  cv b               b b                                                       
+"""
+cell_mirror_clue_desc="""
+__________________________________________________
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXX+---------------------------------------+XXXX|
+|XXX|  __     __   __   _____    ________   |XXXX|
+|XXX| /  |   |  | |  | (___  |   |   ____|  |XXXX|
+|XXX|/_  |   |  |_|  | ____| |   |  |____   |XXXX|
+|XXX|  | |   |____   |(____  |   |____   |  |XXXX|
+|XXX|  | |        |  | ____| |   _____|  |  |XXXX|
+|XXX|  |_|        |__|(_____/   |________|  |XXXX|
+|XXX|                                       |XXXX|
+|XXX+---------------------------------------+XXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+--------------------------------------------------
+
 """
 cell_back_desc = """
 __________________________________________________
@@ -98,6 +144,40 @@ Turn.
 """
 
 #exit description string
+exit_desc = """
+_________________________________________________
+|XXXXXXXXXXX+====================+XXXXXXXXXXXXXX|
+|XXXXXXXXXXX|iiiiiiiiiiiiiiiiiiii|XXXXXXXXXXXXXX|
+|XXXXXXXXXXX|iiiiiiiiiiiiiiiiiiii|XXXXXXXXXXXXXX|
+|XXIIIIXXXXX|iiiiiiiiiiiiiiiiiiii|XXXXXXXXXXXXXX|
+|XXLIIIXXXXX|iiiiii+----+iiiiiiii|XXXXXXXXXXXXXX|
+|XXXXXXXXXXX|iiiiii|Exit|iiiiiiii|XXXXXXXXXXXXXX|
+|XXXXXXXXXXX|iiiiii+----+iiiiiiii|XXXXXXXXXXXXXX|
+|XXXXXXXXXXX|iiiiiiiiiiiiiiiiiiii|XXXXXXXXXXXXXX|
+|XXXXXXXXXXX|iiiiiiiiiiiiiiiiiiii|XXXXXXXXXXXXXX|
+|XXXXXXXXXXX+====================+XXXXXXXXXXXXXX|
+-------------------------------------------------
+
+It's the exit. The door is locked, but there is a keypad. You can:
+Examine the Keypad, or Turn.
+"""
+keypad_desc="""
+_________________________________________________
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX+---------------+XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX|               |XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX|[ 1 ][ 2 ][ 3 ]|XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX|[ 4 ][ 5 ][ 6 ]|XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX|[ 6 ][ 7 ][ 9 ]|XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX|               |XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXX+---------------+XXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+--------------------------------------------------
+Please input exit keycode.
+"""
+#Lab description strings
+
 
 #encoder pin Numbers:
 sw_pin = board.D4
