@@ -3,7 +3,7 @@ import board
 import displayio
 
 
-#description strings
+#cell description strings
 awake_desc = """You awaken on an uncomfortable cot. The room is dim, and you are sore. You don't know where you are. Do you get up from the cot?"""
 
 situp_desc = """
@@ -64,8 +64,41 @@ Look out the window, Look under the cot, or turn.
 cell_r_desc = """
 __________________________________________________
 |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
-|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXX|////|XXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+--------------------------------------------------
+
+Not much to tell here. It's a wall.You can:
+Examine the wall, or Turn.
 """
+#hall description strings
+hall_desc="""
+__________________________________________________
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXX+-----------+XXXX+-------------+XXXXXXX|
+|XXXXXXXXX| <-- LAB   |XXXX|   EXIT -->  |XXXXXXX|
+|XXXXXXXXX+-----------+XXXX+-------------+XXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+--------------------------------------------------
+
+It's a long hallway. You can:
+Turn.
+"""
+
+#exit description string
+
 #encoder pin Numbers:
 sw_pin = board.D4
 rot_a = board.D0
